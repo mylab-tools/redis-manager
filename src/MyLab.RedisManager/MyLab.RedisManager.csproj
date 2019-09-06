@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <Authors>Andrey O.</Authors>
+        <Description>Integrates DotRedis into .NET Core project</Description>
+        <RepositoryUrl>https://github.com/ozzy-ext/mylab-redis-manager.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>redis</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DotRedis" Version="1.11.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>
