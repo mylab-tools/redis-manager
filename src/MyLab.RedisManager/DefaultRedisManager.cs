@@ -10,7 +10,7 @@ namespace MyLab.RedisManager
     /// <summary>
     /// Default implementation of Redis manager
     /// </summary>
-    class DefaultRedisManager : IRedisManager
+    public class DefaultRedisManager : IRedisManager
     {
         public RedisOptions Options { get; }
         
